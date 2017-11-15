@@ -2,6 +2,16 @@
 
 const arr = [
   {
+    uid: 'merge',
+    type: 'file',
+    title: 'Merge development to production branches',
+    arg: 'MERGE',
+    subtitle: 'Merge development to master and master to custom branches',
+    icon: {
+      path: 'icons/github.png'
+    }
+  },
+  {
     uid: 'PR',
     type: 'file',
     title: 'Pull requests',
@@ -58,6 +68,12 @@ const arr = [
       path: 'icons/github.png'
     }
 
+  },
+  {
+    uid: 'monitoring',
+    type: 'file',
+    title: 'server monitoring',
+    arg: 'https://monitor.huridata.org/'
   },
   {
     uid: 'ci',

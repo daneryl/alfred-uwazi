@@ -129,6 +129,16 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>76C26E87-F090-4E93-9A7E-4367BA519C6E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 		</array>
 		<key>57B3CF83-F51D-4C10-9FB7-B1CCCE7D260F</key>
 		<array>
@@ -148,6 +158,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>14E21E79-111F-49CB-B61E-DD94094A3D31</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>76C26E87-F090-4E93-9A7E-4367BA519C6E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>65FBDAAE-0E71-4E41-BC5F-FEF7DA4A38C5</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -305,6 +328,8 @@ tab2.currentSession.name = 'server';</string>
 			<dict>
 				<key>alfredfiltersresults</key>
 				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -369,6 +394,8 @@ tab2.currentSession.name = 'server';</string>
 			<dict>
 				<key>alfredfiltersresults</key>
 				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -559,6 +586,8 @@ tab1.currentSession.name = '{query}';</string>
 			<dict>
 				<key>alfredfiltersresults</key>
 				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -705,6 +734,81 @@ tab1.currentSession.name = 'ansible';</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>var customInstances = [
+	'cejil-design',
+	'zorlakay',
+	'minorityforum',
+	'afchpr-commentary'
+];
+
+var SystemEvents = Application('System Events');
+var iTerm = Application('iTerm');
+iTerm.activate();
+var window = iTerm.currentWindow;
+
+if(iTerm.windows.length === 0) {
+	window = iTerm.createWindowWithDefaultProfile();
+}
+
+var tab = iTerm.createTabWithDefaultProfile(window);
+
+tab.currentSession.write({text: 'cd ~/workspace/uwazi', newline: true});
+tab.currentSession.write({text: 'gco development', newline: true});
+tab.currentSession.write({text: 'git pull origin $(git rev-parse --abbrev-ref HEAD)', newline: true});
+tab.currentSession.write({text: 'gco master', newline: true});
+tab.currentSession.write({text: 'git pull origin $(git rev-parse --abbrev-ref HEAD)', newline: true});
+tab.currentSession.write({text: 'git merge --no-edit development', newline: true});
+tab.currentSession.write({text: 'git push origin $(git rev-parse --abbrev-ref HEAD)', newline: true});
+
+customInstances.forEach(function(instanceName) {
+	tab.currentSession.write({text: 'gco '+instanceName, newline: true});
+	tab.currentSession.write({text: 'git pull origin $(git rev-parse --abbrev-ref HEAD)', newline: true});
+	tab.currentSession.write({text: 'git merge --no-edit master', newline: true});
+	tab.currentSession.write({text: 'git push origin $(git rev-parse --abbrev-ref HEAD)', newline: true});
+});
+
+tab.currentSession.name = 'merge uwazi';</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>65FBDAAE-0E71-4E41-BC5F-FEF7DA4A38C5</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<true/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>MERGE</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>76C26E87-F090-4E93-9A7E-4367BA519C6E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -785,6 +889,20 @@ tab1.currentSession.name = 'ansible';</string>
 			<integer>310</integer>
 			<key>ypos</key>
 			<integer>210</integer>
+		</dict>
+		<key>65FBDAAE-0E71-4E41-BC5F-FEF7DA4A38C5</key>
+		<dict>
+			<key>xpos</key>
+			<integer>390</integer>
+			<key>ypos</key>
+			<integer>690</integer>
+		</dict>
+		<key>76C26E87-F090-4E93-9A7E-4367BA519C6E</key>
+		<dict>
+			<key>xpos</key>
+			<integer>250</integer>
+			<key>ypos</key>
+			<integer>720</integer>
 		</dict>
 		<key>7D00BADC-9AD2-486F-A797-6C22A57B2174</key>
 		<dict>
