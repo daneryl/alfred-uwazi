@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.daneryl.uwazi</string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>connections</key>
+	<dict>
+		<key>14E21E79-111F-49CB-B61E-DD94094A3D31</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F8FBAE61-EC10-4B62-873C-507973BEC728</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>57F8A19F-90B3-4F2A-B02C-26766D7F000F</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>251831D2-84F1-425F-B017-A98B5AAC6CAD</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B7B0C884-CDAA-4C7F-A772-24610C7E3986</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>4C5DFFE1-9441-4800-A4DB-C807ACE2D323</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>5D9C6A99-C79E-4DC8-92C7-8426463E3DF5</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>51BA98E4-55C8-453B-B966-B53CE54FE4FA</string>
+				<key>modifiers</key>
+				<integer>262144</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>05104B43-D56B-4254-AACA-E55406B96D25</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>56B970A6-1FE6-4142-9BA9-FFB05CEB48A3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7DFDE574-24F3-401D-9ECD-4C3D2A26C707</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>57B3CF83-F51D-4C10-9FB7-B1CCCE7D260F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>CACEEA37-3AB1-4F01-8260-104D088FA54E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>A980C77C-5ECC-4058-9132-D62A36326815</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>251831D2-84F1-425F-B017-A98B5AAC6CAD</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>57B3CF83-F51D-4C10-9FB7-B1CCCE7D260F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F8FBAE61-EC10-4B62-873C-507973BEC728</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>5E044270-265E-4993-B6F8-18DFE2AFB842</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>14E21E79-111F-49CB-B61E-DD94094A3D31</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7DFDE574-24F3-401D-9ECD-4C3D2A26C707</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7D00BADC-9AD2-486F-A797-6C22A57B2174</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A980C77C-5ECC-4058-9132-D62A36326815</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A298A449-5EFC-4038-B3CB-4131F720B693</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B7B0C884-CDAA-4C7F-A772-24610C7E3986</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4C5DFFE1-9441-4800-A4DB-C807ACE2D323</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>CACEEA37-3AB1-4F01-8260-104D088FA54E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>5E044270-265E-4993-B6F8-18DFE2AFB842</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string></string>
+	<key>description</key>
+	<string></string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>uwazi</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>var SystemEvents = Application('System Events');
+var iTerm = Application('iTerm');
+iTerm.activate();
+var window1 = iTerm.currentWindow;
+
+if(iTerm.windows.length === 0) {
+	window1 = iTerm.createWindowWithDefaultProfile();
+}
+
+var tab1 = iTerm.createTabWithDefaultProfile(window1);
+var tab2 = iTerm.createTabWithDefaultProfile(window1);
+
+tab1.currentSession.write({text: 'cd ~/workspace/uwazi', newline: true});
+tab1.currentSession.write({text: 'clear', newline: true});
+tab1.currentSession.write({text: 'webpack --watch', newline: true});
+tab1.currentSession.name = 'webpack';
+
+tab2.currentSession.write({text: 'cd ~/workspace/uwazi', newline: true});
+tab2.currentSession.write({text: 'clear', newline: true});
+tab2.currentSession.write({text: "nodemon --ignore 'app/dist/*' --watch 'app/api' --watch 'app/shared' --verbose", newline: true});
+tab2.currentSession.name = 'server';</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>7D00BADC-9AD2-486F-A797-6C22A57B2174</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<true/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>dev</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>7DFDE574-24F3-401D-9ECD-4C3D2A26C707</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>F8FBAE61-EC10-4B62-873C-507973BEC728</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>keyword</key>
+				<string>uwazi</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>2</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>/usr/local/bin/node index.js</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>test.sh</string>
+				<key>subtext</key>
+				<string>workflow for uwazi development</string>
+				<key>title</key>
+				<string>Uwazi</string>
+				<key>type</key>
+				<integer>5</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>56B970A6-1FE6-4142-9BA9-FFB05CEB48A3</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>2</integer>
+				<key>matchstring</key>
+				<string>http</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>57B3CF83-F51D-4C10-9FB7-B1CCCE7D260F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Loading...</string>
+				<key>script</key>
+				<string>/usr/local/bin/node pull_requests.js "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>test.sh</string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Pull Requests</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>14E21E79-111F-49CB-B61E-DD94094A3D31</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<true/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>PRS</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>CACEEA37-3AB1-4F01-8260-104D088FA54E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>5E044270-265E-4993-B6F8-18DFE2AFB842</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>gco {query}</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>57F8A19F-90B3-4F2A-B02C-26766D7F000F</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>var SystemEvents = Application('System Events');
+var iTerm = Application('iTerm');
+iTerm.activate();
+var window1 = iTerm.currentWindow;
+
+if(iTerm.windows.length === 0) {
+	window1 = iTerm.createWindowWithDefaultProfile();
+}
+
+var tab1 = iTerm.createTabWithDefaultProfile(window1);
+
+tab1.currentSession.write({text: 'cd ~/workspace', newline: true});
+tab1.currentSession.write({text: 'clear', newline: true});
+tab1.currentSession.write({text: 'mv uwazi/uwazi-fixtures ./', newline: true});
+tab1.currentSession.write({text: 'rm -fR uwazi', newline: true});
+tab1.currentSession.write({text: 'git clone git@github.com:huridocs/uwazi.git', newline: true});
+tab1.currentSession.write({text: 'cd uwazi', newline: true});
+tab1.currentSession.write({text: 'mv ../uwazi-fixtures ./', newline: true});
+tab1.currentSession.write({text: 'yarn install', newline: true});
+tab1.currentSession.name = 'reinstall';</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>A298A449-5EFC-4038-B3CB-4131F720B693</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<true/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>FRESH</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>A980C77C-5ECC-4058-9132-D62A36326815</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>var SystemEvents = Application('System Events');
+var iTerm = Application('iTerm');
+iTerm.activate();
+var window1 = iTerm.currentWindow;
+
+if(iTerm.windows.length === 0) {
+	window1 = iTerm.createWindowWithDefaultProfile();
+}
+
+var tab1 = iTerm.createTabWithDefaultProfile(window1);
+
+tab1.currentSession.write({text: '{query}', newline: true});
+tab1.currentSession.name = '{query}';</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>5D9C6A99-C79E-4DC8-92C7-8426463E3DF5</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Loading...</string>
+				<key>script</key>
+				<string>/usr/local/bin/node servers.js "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>test.sh</string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Servers</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>4C5DFFE1-9441-4800-A4DB-C807ACE2D323</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>B7B0C884-CDAA-4C7F-A772-24610C7E3986</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<true/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>SERVERS</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>251831D2-84F1-425F-B017-A98B5AAC6CAD</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>var SystemEvents = Application('System Events');
+var iTerm = Application('iTerm');
+iTerm.activate();
+var window1 = iTerm.currentWindow;
+
+if(iTerm.windows.length === 0) {
+	window1 = iTerm.createWindowWithDefaultProfile();
+}
+
+var tab1 = iTerm.createTabWithDefaultProfile(window1);
+
+tab1.currentSession.write({text: 'cd ~/workspace/operations', newline: true});
+tab1.currentSession.write({text: 'clear', newline: true});
+tab1.currentSession.write({text: '{query}', newline: true});
+tab1.currentSession.name = 'ansible';</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>51BA98E4-55C8-453B-B966-B53CE54FE4FA</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>var SystemEvents = Application('System Events');
+var iTerm = Application('iTerm');
+iTerm.activate();
+var window1 = iTerm.currentWindow;
+
+if(iTerm.windows.length === 0) {
+	window1 = iTerm.createWindowWithDefaultProfile();
+}
+
+var tab1 = iTerm.createTabWithDefaultProfile(window1);
+
+tab1.currentSession.write({text: 'cd ~/workspace/operations', newline: true});
+tab1.currentSession.write({text: 'clear', newline: true});
+tab1.currentSession.write({text: '{query}', newline: true});
+tab1.currentSession.name = 'ansible';</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>05104B43-D56B-4254-AACA-E55406B96D25</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>05104B43-D56B-4254-AACA-E55406B96D25</key>
+		<dict>
+			<key>xpos</key>
+			<integer>680</integer>
+			<key>ypos</key>
+			<integer>670</integer>
+		</dict>
+		<key>14E21E79-111F-49CB-B61E-DD94094A3D31</key>
+		<dict>
+			<key>note</key>
+			<string>Alfred 3 now supports JSON as the Script Filter output. This is the recommended output.</string>
+			<key>xpos</key>
+			<integer>380</integer>
+			<key>ypos</key>
+			<integer>180</integer>
+		</dict>
+		<key>251831D2-84F1-425F-B017-A98B5AAC6CAD</key>
+		<dict>
+			<key>xpos</key>
+			<integer>240</integer>
+			<key>ypos</key>
+			<integer>540</integer>
+		</dict>
+		<key>4C5DFFE1-9441-4800-A4DB-C807ACE2D323</key>
+		<dict>
+			<key>note</key>
+			<string>Alfred 3 now supports JSON as the Script Filter output. This is the recommended output.</string>
+			<key>xpos</key>
+			<integer>390</integer>
+			<key>ypos</key>
+			<integer>510</integer>
+		</dict>
+		<key>51BA98E4-55C8-453B-B966-B53CE54FE4FA</key>
+		<dict>
+			<key>xpos</key>
+			<integer>680</integer>
+			<key>ypos</key>
+			<integer>560</integer>
+		</dict>
+		<key>56B970A6-1FE6-4142-9BA9-FFB05CEB48A3</key>
+		<dict>
+			<key>note</key>
+			<string>Alfred 3 now supports JSON as the Script Filter output. This is the recommended output.</string>
+			<key>xpos</key>
+			<integer>50</integer>
+			<key>ypos</key>
+			<integer>100</integer>
+		</dict>
+		<key>57B3CF83-F51D-4C10-9FB7-B1CCCE7D260F</key>
+		<dict>
+			<key>xpos</key>
+			<integer>240</integer>
+			<key>ypos</key>
+			<integer>130</integer>
+		</dict>
+		<key>57F8A19F-90B3-4F2A-B02C-26766D7F000F</key>
+		<dict>
+			<key>xpos</key>
+			<integer>560</integer>
+			<key>ypos</key>
+			<integer>240</integer>
+		</dict>
+		<key>5D9C6A99-C79E-4DC8-92C7-8426463E3DF5</key>
+		<dict>
+			<key>xpos</key>
+			<integer>680</integer>
+			<key>ypos</key>
+			<integer>450</integer>
+		</dict>
+		<key>5E044270-265E-4993-B6F8-18DFE2AFB842</key>
+		<dict>
+			<key>xpos</key>
+			<integer>310</integer>
+			<key>ypos</key>
+			<integer>210</integer>
+		</dict>
+		<key>7D00BADC-9AD2-486F-A797-6C22A57B2174</key>
+		<dict>
+			<key>xpos</key>
+			<integer>380</integer>
+			<key>ypos</key>
+			<integer>20</integer>
+		</dict>
+		<key>7DFDE574-24F3-401D-9ECD-4C3D2A26C707</key>
+		<dict>
+			<key>xpos</key>
+			<integer>240</integer>
+			<key>ypos</key>
+			<integer>50</integer>
+		</dict>
+		<key>A298A449-5EFC-4038-B3CB-4131F720B693</key>
+		<dict>
+			<key>xpos</key>
+			<integer>390</integer>
+			<key>ypos</key>
+			<integer>380</integer>
+		</dict>
+		<key>A980C77C-5ECC-4058-9132-D62A36326815</key>
+		<dict>
+			<key>xpos</key>
+			<integer>270</integer>
+			<key>ypos</key>
+			<integer>410</integer>
+		</dict>
+		<key>B7B0C884-CDAA-4C7F-A772-24610C7E3986</key>
+		<dict>
+			<key>xpos</key>
+			<integer>310</integer>
+			<key>ypos</key>
+			<integer>540</integer>
+		</dict>
+		<key>CACEEA37-3AB1-4F01-8260-104D088FA54E</key>
+		<dict>
+			<key>xpos</key>
+			<integer>240</integer>
+			<key>ypos</key>
+			<integer>210</integer>
+		</dict>
+		<key>F8FBAE61-EC10-4B62-873C-507973BEC728</key>
+		<dict>
+			<key>xpos</key>
+			<integer>560</integer>
+			<key>ypos</key>
+			<integer>100</integer>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>
